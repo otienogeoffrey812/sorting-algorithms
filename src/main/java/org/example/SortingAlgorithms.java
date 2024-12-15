@@ -24,6 +24,8 @@ public class SortingAlgorithms {
         //Swap it with the first element of the unsorted part (which becomes the last element of the sorted part).
         //Repeat the process until the whole array is sorted.
         // Time Complexity - n (passes) * n (comparisons) = n^2
+        // Best - n^2 , Average - n^2, Worst - n^2
+        // Space complexity - 0(1) - In-place sorting, no additional space needed
 
         for (int i = 0; i < array.length; i++) {
             int minIndex = i;
